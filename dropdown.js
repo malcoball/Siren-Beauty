@@ -15,7 +15,7 @@ const Target = document.querySelector("#openTime");
 const List      = document.querySelector("#timeDropDown")
 
 console.log(hours);
-Target.innerHTML = "Open Time : "+hours+"<img class='icon-m' src='assets/Icons/up Arrow.png'>";
+Target.innerHTML = "Open Time : "+hours+"<img class='icon-m' src='Images/Icons/up Arrow.png'>";
 
 Target.addEventListener("click",()=>{
     List.classList.toggle("d-none");
