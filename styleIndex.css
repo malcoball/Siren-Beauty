@@ -1,0 +1,33 @@
+article p{
+    font-size: 1.15em;
+}
+
+article h2:hover{
+    cursor: pointer;
+    text-decoration:underline ;
+}
+article img{
+    width:256px;
+    height: auto;
+}
+
+.topLogo{
+    padding-top: 10vh;
+    background-image: url("assets/imgs/Logo 2.png");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.push{
+    top: 5vh;
+    position:relative;
+    margin-top: 20vh;
+    padding-bottom: 10vh;
+    background-color: #ffcdab4f;
+    height: 100%;
+}
+.link-push{
+    margin-left: 12px;
+}
+.container{
+    margin-top: 6.25rem;
+}

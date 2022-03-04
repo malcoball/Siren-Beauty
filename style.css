@@ -1,0 +1,280 @@
+/*
+header{
+    color: rgb(98, 8, 8);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.title{
+    text-align: center;
+}
+.title h1{
+    font-family: 'Birthstone', cursive;
+    font-size: 6.5rem;
+}
+.title h2{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.25rem;
+}
+#txt{
+    font-family: 'Birthstone Bounce';
+    font-size: 5rem;
+}
+
+img{
+    position: relative;
+}
+
+#pic{
+    margin-top:0;
+}*/
+
+.col1 {
+    color : #1d1d1d;
+}
+.col2 {
+    color : #555555;
+}
+.col3 {
+    color: #b3b3b3;
+}
+.col4{
+    color : #d8d8d8;
+}
+.nCol1{
+    color : #969696; 
+}
+.nCol1:hover{
+    color : #424242; 
+}
+.bCol1 {
+    background-color : #d8d8d8;
+}
+.bCol2 {
+    background-color : #b3b3b3;
+}
+.bCol3 {
+    background-color: #686868;
+}
+.bCol4{
+    background-color : #3b3b3b;
+}
+.nBCol1{
+    background-color : #242424;
+}
+
+body{
+    font-family: 'Raleway',sans-serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+h2{
+    text-align: center;
+}
+a{
+    color: #1b7777;
+    font-size: 1.4em;
+    transition: 0.25s;
+}
+a:hover{
+    color: #3db899;
+    font-size:1.45em;
+    position: sticky;
+}
+.navbar a{
+    font-size: 1em;
+}
+footer{
+    font-weight: 300;
+}
+
+.navbig{
+    width:100%;
+}
+
+
+
+.navsml{
+    transition: 1s;
+    width: 68.75vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbig{
+    transition: 1s;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.homepageShow p{
+    font-size: 1.2em;
+}
+.homepageShow div:nth-of-type(1), .homepageShow div:nth-of-type(4){
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.homepageShow div:nth-of-type(2){
+    margin-bottom: 2em;
+}
+
+.homepageQuotes{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 256px;
+}
+.mbPriceBox h3, .mbPriceBox h4{
+    text-transform: uppercase;
+}
+
+
+.mbPriceBox{
+    padding-top: 2rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid #303a5218;
+    border-top: none;
+    border-left: none;
+}
+.mbPriceBox:nth-of-type(4){
+    border-right: none;
+}
+.mbPriceTitle{
+    text-align: center;
+}
+
+.mbPricePrice{
+    text-align: center;
+    font-size: 2em;
+}
+.mbPricePic{
+    border-radius: 5%;
+}
+
+#navbarTitle{
+    font-family: 'Birthstone', cursive;
+    font-size: 1.5em;
+    color:rgb(98,8,8);
+}
+
+
+
+
+#goalRow h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+#goalLine{
+    height: 32px;
+    border: 1px solid #171c27b4;
+    width:0%;
+    margin:0.6em auto ;
+
+}
+#contact{
+    border-radius: 10% 10% 0 0;
+    background-image: url("assets/imgs/splash.jpg");
+    background-position: center;
+    text-align: center;
+    height: 396px;
+}
+
+#contact h1{
+    text-transform: uppercase;
+}
+#contact div{
+    background-color: #d3d7e0ce;
+}
+
+#mbPricePrice4{
+    font-size: 1.75em;
+}
+
+#map{
+    border-radius: 10%;
+    width: 512px;
+    height: 512px;
+}
+
+.img-half{
+    width: 50%;
+    height: auto;
+}
+.img-center{
+    display : block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.img-round1{
+    border-radius: 10%;
+}
+.img-circle{
+    border-radius: 50%;
+}
+.v-hidden{
+    visibility: hidden;
+}
+.border-round{
+    border-radius: 5%;
+}
+.text-shade{
+    text-shadow: #303a52 1px 1px 1px;
+}
+.link{
+    font-size: 1.5em;
+    transition: 0.5s;
+}
+.link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 1.75em;
+}
+.z-ontop{
+    position:relative;
+    z-index : 1;
+}
+.z-under{
+    position:relative;
+    z-index : -1;
+}
+.z-under2{
+    position:relative;
+    z-index : -2;
+}
+.icon-xs{
+    width:  16px;
+    height: 16px;
+    position: relative;
+}
+.icon-s{
+    width:  24px;
+    height: 24px;
+    position: relative;
+}
+.icon-m{
+    width:  32px;
+    height: 32px;
+    position: relative;
+}
+.icon-l{
+    width:  64px;
+    height: 64px;
+    position: relative;
+}
+.caps{
+    text-transform: uppercase;
+}

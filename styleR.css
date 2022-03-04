@@ -1,0 +1,28 @@
+/**/
+@media screen and (max-width: 1400px) {
+    .container{
+        width: 100%;
+        max-width: 1296px; 
+    }
+    #navbar{
+        width: 100%;
+    }
+}
+
+/*Large*/
+@media screen and (max-width: 992px){
+    #mbPriceRow{
+        border-radius: 0%;
+    }
+    .listTitle{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    #mbPriceRow{
+        border-radius: 0%;
+    }
+
+}

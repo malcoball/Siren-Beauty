@@ -1,0 +1,91 @@
+body{
+    background-image: url("assets/imgs/Salon/background\ Pic.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+}
+main{
+    padding-top: 162px;
+    min-height: 100vh;
+    margin-bottom: 16px;
+    padding-bottom: 96px;
+}
+section{
+    padding-bottom: 10vh
+}
+
+
+p{
+    font-size: 1.25em;
+    text-align: center;
+    line-height: 1.5em;
+}
+a{
+    text-align: center;
+}
+li img{
+    height: 32px;
+}
+
+.infoCont{
+    height:50vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footCont{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footCont img{
+    vertical-align: center;
+}
+.footCont p{
+    padding-bottom: 0;
+}
+
+.footCont div:nth-of-type(2) p{
+    padding-top: 0px;
+    margin-bottom: 4px;
+}
+
+
+
+#hrLeft, #hrRight{
+    position: relative;
+}
+
+#map{
+    margin: 24px auto 0 auto;
+    width: 75%;
+    height: 330px;
+}
+
+#openTime{
+    width: auto;
+}
+#openTime:hover{
+    cursor: pointer;
+    border-radius: 10%;
+    background: grey;
+}
+#timeDropDown{
+    border-radius: 10% 10% 0 0;
+    padding: 0 12px 0 12px;
+    display:flex;
+    position: absolute;
+    right: 12vw;
+    bottom: 9vh;
+    line-height: 2em;
+    width:fit-content;
+}
+#timeDropdown span{
+    position: relative;
+    left: 12px;
+    color:red;
+}
+#listLeft{
+    padding-left: 0;
+}

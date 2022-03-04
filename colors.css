@@ -1,0 +1,43 @@
+.col1 {
+    color : #5d5d5a;
+}
+.col2 {
+    color : #ffa45c;
+}
+.col3 {
+    color: #ffcdab;
+}
+.col4{
+    color : #fff4e3;
+}
+.nCol1{
+    color : #fff4e3; 
+}
+.nColA{
+    color:#620808; 
+}
+.aCol1{
+    color : #5cfff1;
+}
+
+.bCol1 {
+    background-color : #fff4e3;
+}
+.bCol2 {
+    background-color : #ffcdab;
+}
+.bCol3 {
+    background-color: #dd853d;
+}
+.bCol4{
+    background-color : #5d5d5a;
+}
+
+.nBCol1{
+    background-color : #a7622a;
+}
+
+
+.nCol1:hover{
+    color:rgb(98,8,8); 
+}
